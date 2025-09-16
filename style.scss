@@ -1,0 +1,58 @@
+$primaryColor: #11118B;
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 23px;
+}
+
+header {
+    background-color: $primaryColor;
+    color: white;
+    font-size: 20px;
+}
+
+.Image {
+    width: 100%;
+}
+
+.Titre {
+    color: $primaryColor;
+    margin-left: 40px;
+
+    h2 {
+        font-size: 60px;
+    }
+}
+
+a {
+    background-color: $primaryColor;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.corps {
+    color: $primaryColor;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 40px;
+
+    h3 {
+        font-size: 45px;
+    }
+    
+    .uno {
+        background-color: #EEEEFC;
+        padding: 8px;
+    }
+    
+    .dos {
+        background-color: #EEEEFC;
+        margin-top: 100px;
+        padding: 8px;
+    }
+}
